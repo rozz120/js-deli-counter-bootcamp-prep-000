@@ -1,6 +1,6 @@
 function takeANumber(number, name)
 {
- line.push(name)
+ number.push(name)
   var numberNumber = number.length;
   numberNumber++;
   var whatToReturn = ("Welcome, "  + name +  ". You are number "  + numberNumber +  " in line.");
