@@ -25,7 +25,10 @@ function currentLine(line)
 {
   if(line.length > 0){
     var newArray = []
-    
+    for(i=0; i < line.length; i++)
+    {
+      
+    }
   }
   
   else{
