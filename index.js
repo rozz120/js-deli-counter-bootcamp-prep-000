@@ -21,25 +21,18 @@ function nowServing(katzDeliLine)
   }
 }
 
-function currentLine(line)
-{
-  if(line.length > 0){
-    var newArray = []
-    var i;
-    for(i=0; i < line.length; i++)
-    {
-      var person = line[i];
-      i++
-      
-      person = " "+  i + ". " + person;
-      i--
-      newArray.push(person)
-    }
-    return ("The line is currently: " + newArray.toString());
-  }
-  
-  else{
-    return ("The line is currently empty.")
-  }
-  
+function currentLine(line) {
+ if (line.length > 0) { 
+   var message = "The line is currently:"
+   
+   for (let i = 0; i < line.length; i++) {
+     if (i > 0) {
+       message = message + ","
+     }
+     message = message + " " + (i + 1) + ". " + line[i] 
+   } 
+   return message
+ } else {
+  return "The line is currently empty."
+ }
 }
