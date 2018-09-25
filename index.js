@@ -1,8 +1,8 @@
 function takeANumber(number, name)
 {
  number.push(name)
-  var numberNumber = number.length;
-  numberNumber++;
+  //var numberNumber = number.length;
+  
   var whatToReturn = ("Welcome, "  + name +  ". You are number "  + numberNumber +  " in line.");
   return whatToReturn
   
