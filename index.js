@@ -10,5 +10,13 @@ function takeANumber(number, name)
 
 function nowServing()
 {
-  if ( katzDeliLine.length > -1)
+  if ( katzDeliLine.length > 0)
+  {
+    
+  }
+  
+  else
+  {
+    return ("")
+  }
 }
