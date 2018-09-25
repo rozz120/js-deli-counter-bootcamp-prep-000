@@ -10,5 +10,5 @@ function takeANumber(number, name)
 
 function nowServing()
 {
-  if ( katzde)
+  if ( katzDeliLine.length > -1)
 }
