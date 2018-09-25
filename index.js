@@ -24,7 +24,8 @@ function nowServing(katzDeliLine)
 function currentLine(line)
 {
   if(line.length > 0){
-    line.toString()
+    var newArray = []
+    
   }
   
   else{
