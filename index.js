@@ -3,7 +3,7 @@ function takeANumber(number, name)
  number.push(name)
   //var numberNumber = number.length;
   
-  var whatToReturn = ("Welcome, "  + name +  ". You are number "  + numberNumber +  " in line.");
+  var whatToReturn = ("Welcome, "  + name +  ". You are number "  + number.length +  " in line.");
   return whatToReturn
   
 }
