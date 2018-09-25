@@ -31,7 +31,7 @@ function currentLine(line)
       person = i + ". " + person;
       newArray.push(person)
     }
-    return ( newArray.toString())
+    return ("The line is currently: " + newArray.toString())
   }
   
   else{
