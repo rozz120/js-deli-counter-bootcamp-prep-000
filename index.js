@@ -25,7 +25,6 @@ function currentLine(line)
 {
   if(line.length > 0){
     var newArray = []
-    var newNewArray = []
     var i;
     for(i=0; i < line.length; i++)
     {
@@ -33,8 +32,7 @@ function currentLine(line)
       person = i + ". " + person;
       newArray.push(person)
     }
-    newNewArray = newArray.toString();
-    return ("The line is currently: " + newNewArray);
+    return ("The line is currently: " + newArray.toString());
   }
   
   else{
