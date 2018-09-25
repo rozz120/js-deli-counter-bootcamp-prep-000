@@ -1,6 +1,6 @@
-function takeANumber(lineOfPeople, name)
+function takeANumber(number, name)
 {
   
-  return ("Welcome " + name + ", You are number " + lineOfPeople + " in line");
+  return ("Welcome " + name + ", You are number " + number + " in line");
   
 }
