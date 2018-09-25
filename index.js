@@ -1,7 +1,7 @@
 function takeANumber(number, name)
 {
  number.push(name)
-  varar whatToReturn = ("Welcome, "  + name +  ". You are number "  + number.length +  " in line.");
+  var whatToReturn = ("Welcome, "  + name +  ". You are number "  + number.length +  " in line.");
   return whatToReturn
   
 }
