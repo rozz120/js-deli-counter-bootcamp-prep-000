@@ -11,7 +11,7 @@ function nowServing(katzDeliLine)
   if ( katzDeliLine.length > 0)
   {
     var firstInLine = katzDeliLine[0]
-    
+    katzDeliLine.shift()
     return(firstInLine);
   }
   
