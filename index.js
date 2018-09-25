@@ -1,9 +1,7 @@
 function takeANumber(number, name)
 {
  number.push(name)
-  //var numberNumber = number.length;
-  
-  var whatToReturn = ("Welcome, "  + name +  ". You are number "  + number.length +  " in line.");
+  varar whatToReturn = ("Welcome, "  + name +  ". You are number "  + number.length +  " in line.");
   return whatToReturn
   
 }
@@ -12,7 +10,9 @@ function nowServing(katzDeliLine)
 {
   if ( katzDeliLine.length > 0)
   {
-    return(katzDeliLine[0]);
+    var firstInLine = katzDeliLine[0]
+    
+    return(firstInLine);
   }
   
   else
