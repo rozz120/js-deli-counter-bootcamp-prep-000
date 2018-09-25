@@ -8,4 +8,7 @@ function takeANumber(number, name)
   
 }
 
-function 
+function nowServing()
+{
+  if ( katzde)
+}
