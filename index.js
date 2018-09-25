@@ -25,6 +25,7 @@ function currentLine(line)
 {
   if(line.length > 0){
     var newArray = []
+    var i;
     for(i=0; i < line.length; i++)
     {
       var person = line[i];
