@@ -31,7 +31,7 @@ function currentLine(line)
       var person = line[i];
       i++
       
-      person = " " h + ". " + person;
+      person = " " i + ". " + person;
       i--
       newArray.push(person)
     }
