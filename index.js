@@ -21,4 +21,7 @@ function nowServing(katzDeliLine)
   }
 }
 
-function cu
+function currentLine()
+{
+  
+}
