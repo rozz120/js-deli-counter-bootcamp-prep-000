@@ -29,7 +29,9 @@ function currentLine(line)
     for(i=0; i < line.length; i++)
     {
       var person = line[i];
-      person = " " i + ". " + person;
+      var h = i;
+      h++
+      person = " " h + ". " + person;
       newArray.push(person)
     }
     return ("The line is currently: " + newArray.toString());
