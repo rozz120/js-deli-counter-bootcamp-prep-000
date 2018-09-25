@@ -21,7 +21,14 @@ function nowServing(katzDeliLine)
   }
 }
 
-function currentLine()
+function currentLine(line)
 {
+  if(line.length > 0){
+    
+  }
+  
+  else{
+    return ("")
+  }
   
 }
