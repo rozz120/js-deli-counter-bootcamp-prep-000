@@ -1,6 +1,6 @@
-function takeANumber(number, barry)
+function takeANumber(number, name)
 {
-  var whatToReturn = ("Welcome " + barry + ", You are number " + number + " in line");
+  var whatToReturn = ("Welcome " + number + ", You are number " + number + " in line");
   return whatToReturn
   
 }
